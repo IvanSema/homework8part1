@@ -1,0 +1,295 @@
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(../fonts/Proxima\ Nova\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('../fonts/FuturaPT-Heavy.eot');
+    src: url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('../fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background: #464f54;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #464f54;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.wrapper{
+    background-color: white;
+    width: 1060px;
+    margin: 149px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/docline.png);
+    background-repeat: repeat-y;
+    background-position: 67px 0;
+    padding: 84px 0 0 0;
+}
+
+.text-block{
+    margin: 0 132px;
+    width: 810px;
+    padding: 0 0 32px 0;
+}
+
+
+.text-block .author{
+    color: #b4b4b4;
+    font-size: 19.84px;
+    display: flex;
+    font-family: "Proxima Nova";
+    width: 1060px;
+    margin: 42px 0 0 0;
+
+}
+
+.text-block .headline{
+    font-size: 77.93px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    margin: 26px 0 -2px 0;
+    font-family: 'Futura PT Heavy';
+    letter-spacing: 6px;
+}
+
+.text-block .quastion{
+    font-size: 30px;
+    color: #8f8f8f;
+    margin: 0 0 49px 0;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.text-block .text{
+    font-size: 26.92px;
+    color: #000000;
+    margin: 21px 0 0 0;
+    font-family: Georgia;
+    font-style: normal;
+    line-height: 39px;
+}
+
+.wrapper .text-function{
+    box-sizing: border-box;
+    background-color: #f8be2c;
+    height: 76px;
+    width: 876px;
+    margin: 0 -235px 0 235px;
+    display: flex;
+    padding: 23px 125px;
+}
+.title-name{
+    box-sizing: border-box;
+    width: 872px;
+    height: 187px;
+    background-color: #181818;
+    margin: -261px -258px 0 258px;
+    color: #767676;
+    font-size: 15px;
+    font-family: "Proxima Nova";
+    padding: 50px 64px;
+}
+.title-name .headline{
+    display: block;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    color: #fefefe;
+    height: 50px;
+    margin: -4px 0 0 0;
+}
+
+.title-name .headline img{
+    margin: -4px 0 -4px 0;
+}
+
+.title-name > img{
+    margin: 24px -4px 0 -8px;
+    width: 816px;
+}
+
+.ic-color{
+    height: 32px;
+    width: 38px;
+    background-image: url(../images/icons.png);
+    background-position: 0 0;
+}
+
+.ic-color:hover{
+    background-image: url(../images/icons.png);
+    background-position: 0 -32px;
+}
+
+.ic-size{
+    width: 30px;
+    height: 23px;
+    background-image: url(../images/icons.png);
+    background-position: 269px 0;
+    margin: 4px 14px;
+}
+
+.ic-size:hover{
+    background-image: url(../images/icons.png);
+    background-position: 269px -23px;
+}
+
+.ic-photo{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 233px 0;
+    margin: 2px 16px;
+}
+
+.ic-photo:hover{
+    background-image: url(../images/icons.png);
+    background-position: 233px -27px;
+}
+
+.ic-bold{
+    width: 20px;
+    height: 26px;
+    background-image: url(../images/icons.png);
+    background-position: 200px 0;
+    margin: 2px 16px;
+}
+
+.ic-bold:hover{
+    width: 20px;
+    height: 26px;
+    background-image: url(../images/icons.png);
+    background-position: 200px -26px;
+}
+
+.ic-italic{
+    width: 19px;
+    height: 22px;
+    background-image: url(../images/icons.png);
+    background-position: 177px 0;
+    margin: 5px 24px;
+}
+
+.ic-italic:hover{
+    background-image: url(../images/icons.png);
+    background-position: 177px -22px;
+}
+
+.ic-underline{
+    width: 22px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 154px 0;
+    margin: 2px 16px;
+}
+
+.ic-underline:hover{
+    width: 22px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 154px -27px;
+}
+
+.ic-justify{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 127px 0;
+    margin: 2px 22px;
+}
+
+.ic-justify:hover{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 127px -27px;
+}
+
+.ic-align-left{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 95px 0;
+    margin: 2px 10px;
+}
+
+.ic-align-left:hover{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 95px -27px;
+}
+
+.ic-align-center{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 62px 0;
+    margin: 2px 22px;
+
+}
+
+.ic-align-center:hover{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 62px -27px;
+}
+
+.ic-align-left{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 28px 0;
+}
+
+.ic-align-left:hover{
+    width: 28px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: 28px -27px;
+}
